@@ -5,6 +5,13 @@ import { ProductCard } from "@/components/ProductCard";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      {/* Top bar */}
+      <div className="bg-foreground text-background">
+        <div className="mx-auto max-w-6xl px-6 py-2 text-center text-xs font-medium tracking-wide sm:text-sm">
+          Produkt przebadany · Dostawa 3–4 dni
+        </div>
+      </div>
+
       {/* Header */}
       <header className="border-b border-border/60">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
