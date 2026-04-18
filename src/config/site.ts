@@ -1,12 +1,12 @@
 // 🛠️ Edytuj poniższe wartości aby dostosować stronę
-import iwermektyna12Front from "@/assets/iwermektyna-12-front.jpg";
-import iwermektyna12Back from "@/assets/iwermektyna-12-back.jpg";
-import iwermektyna6Front from "@/assets/iwermektyna-6-front.jpg";
-import iwermektyna6Back from "@/assets/iwermektyna-6-back.jpg";
-import fenbendazol222Front from "@/assets/fenbendazol-222-front.jpg";
-import fenbendazol222Back from "@/assets/fenbendazol-222-back.jpg";
-import fenbendazol444Front from "@/assets/fenbendazol-444-front.jpg";
-import fenbendazol444Back from "@/assets/fenbendazol-444-back.jpg";
+import iwermektyna12Front from "@/assets/produkt-1-przod.jpg";
+import iwermektyna12Back from "@/assets/produkt-1-tyl.jpg";
+import iwermektyna6Front from "@/assets/produkt-2-przod.jpg";
+import iwermektyna6Back from "@/assets/produkt-2-tyl.jpg";
+import fenbendazol222Front from "@/assets/produkt-3-przod.jpg";
+import fenbendazol222Back from "@/assets/produkt-3-tyl.jpg";
+import fenbendazol444Front from "@/assets/produkt-4-przod.jpg";
+import fenbendazol444Back from "@/assets/produkt-4-tyl.jpg";
 
 export const siteConfig = {
   // Nazwa strony (wyświetlana w nagłówku i hero)
