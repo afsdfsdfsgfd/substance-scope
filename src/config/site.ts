@@ -1,6 +1,12 @@
 // 🛠️ Edytuj poniższe wartości aby dostosować stronę
-import product1Front from "@/assets/product-1-front.jpg";
-import product1Back from "@/assets/product-1-back.jpg";
+import iwermektyna12Front from "@/assets/iwermektyna-12-front.jpg";
+import iwermektyna12Back from "@/assets/iwermektyna-12-back.jpg";
+import iwermektyna6Front from "@/assets/iwermektyna-6-front.jpg";
+import iwermektyna6Back from "@/assets/iwermektyna-6-back.jpg";
+import fenbendazol222Front from "@/assets/fenbendazol-222-front.jpg";
+import fenbendazol222Back from "@/assets/fenbendazol-222-back.jpg";
+import fenbendazol444Front from "@/assets/fenbendazol-444-front.jpg";
+import fenbendazol444Back from "@/assets/fenbendazol-444-back.jpg";
 
 export const siteConfig = {
   // Nazwa strony (wyświetlana w nagłówku i hero)
@@ -23,26 +29,26 @@ export const siteConfig = {
     {
       name: "Iwermektyna 12 mg",
       description: "Substancja: iwermektyna.",
-      imageFront: product1Front,
-      imageBack: product1Back,
+      imageFront: iwermektyna12Front,
+      imageBack: iwermektyna12Back,
     },
     {
       name: "Iwermektyna 6 mg",
       description: "Substancja: iwermektyna.",
-      imageFront: product1Front,
-      imageBack: product1Back,
+      imageFront: iwermektyna6Front,
+      imageBack: iwermektyna6Back,
     },
     {
       name: "Fenbendazol 222 mg",
       description: "Substancja: fenbendazol.",
-      imageFront: product1Front,
-      imageBack: product1Back,
+      imageFront: fenbendazol222Front,
+      imageBack: fenbendazol222Back,
     },
     {
       name: "Fenbendazol 444 mg",
       description: "Substancja: fenbendazol.",
-      imageFront: product1Front,
-      imageBack: product1Back,
+      imageFront: fenbendazol444Front,
+      imageBack: fenbendazol444Back,
     },
   ],
 
