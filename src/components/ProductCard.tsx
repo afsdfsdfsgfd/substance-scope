@@ -41,7 +41,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
         />
       </div>
 
-      <div className="mt-5 flex flex-1 flex-col gap-3">
+      <div className="mt-5 flex flex-1 flex-col gap-4">
         <div className="min-w-0">
           <h3 className="text-lg font-semibold leading-tight text-foreground">
             {product.name}
@@ -52,15 +52,25 @@ export const ProductCard = ({ product }: { product: Product }) => {
             </p>
           )}
         </div>
+
         <a
           href={whatsappLink}
           target="_blank"
           rel="noopener noreferrer"
           aria-label={`Więcej informacji – WhatsApp ${siteConfig.whatsappDisplay}`}
-          className="mt-auto inline-flex items-center justify-center gap-2 rounded-full bg-whatsapp px-4 py-2.5 text-sm font-medium text-whatsapp-foreground transition-transform hover:scale-[1.02] active:scale-[0.98]"
+          className="mt-auto flex w-full items-center gap-3 rounded-xl bg-whatsapp px-4 py-3 text-whatsapp-foreground transition-transform hover:scale-[1.02] active:scale-[0.98] shadow-sm"
         >
-          <WhatsAppIcon className="h-4 w-4" />
-          <span>Więcej informacji WhatsApp: {siteConfig.whatsappDisplay}</span>
+          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white/15">
+            <WhatsAppIcon className="h-7 w-7" />
+          </span>
+          <span className="flex min-w-0 flex-col items-start leading-tight">
+            <span className="text-xs font-medium uppercase tracking-wide opacity-90">
+              Więcej informacji
+            </span>
+            <span className="truncate text-sm font-semibold">
+              WhatsApp: {siteConfig.whatsappDisplay}
+            </span>
+          </span>
         </a>
       </div>
     </article>
