@@ -68,7 +68,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
               Więcej informacji
             </span>
             <span className="truncate text-sm font-semibold">
-              WhatsApp: {siteConfig.whatsappDisplay}
+              {siteConfig.whatsappDisplay}
             </span>
           </span>
         </a>
