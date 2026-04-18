@@ -13,9 +13,9 @@ export const siteConfig = {
   siteName: "Informacje",
 
   // Numer WhatsApp (z kodem kraju, bez znaku +, np. 48123456789)
-  whatsappNumber: "48123456789",
+  whatsappNumber: "48444444444",
   // Wyświetlany format numeru
-  whatsappDisplay: "+48 123 456 789",
+  whatsappDisplay: "+48 444 444 444",
 
   // Hero
   hero: {
